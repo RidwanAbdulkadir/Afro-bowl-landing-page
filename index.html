@@ -10,58 +10,59 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <header>
-            <div class="h1">
-            <h1>Welcome to The African Bowl</h1>
-            </div>
+        <header class="header">
+            <h1 class="header__h1">The African Bowl</h1>
             <p><span class="po">Authentic African cuisine, thoughtfully prepared and richly flavored!</span></p>
-        <nav>
-            <ul>
+            <nav class="header__nav">
+            <ul class="header__ul">
                 <li>
-                    <a href="#about">About <abbr title="The African Bowl">TAB</abbr></a>
+                    <a href="#menu">Menu</a>
                 </li>
                 <li>
-                    <a href="#menu">Our Menu</a>
+                    <a href="/hours.html">Hours</a>
                 </li>
                 <li>
-                    <a href="/hours.html">Store Hours</a>
+                    <a href="/contact.html">Contact</a>
                 </li>
                 <li>
-                    <a href="/contact.html">Contact Us</a>
+                    <a href="/about.html">About</a>
                 </li>
             </ul>
         </nav>
         <!-- <p><span class="p2 left">Want to have a meal rich in african culture? We've got you covered!</span></p> -->
-            <div class="image-grid">
+        </header>
+        <section class="hero">
+            <!-- <h2 class="hero__h2">Bon Appetit!</h2> -->
+             <div class="image-grid">
             <figure>
             <img src="img/amala.webp" alt="afro food">
-                <figcaption>Amala with Ewedu and Gbegiri Soup.</figcaption>
+                <figcaption class="offscreen">Amala with Ewedu and Gbegiri Soup.</figcaption>
             </figure>
             <figure>
             <img src="img/pandy.webp" alt="afro food">
-                <figcaption>Pounded Yam with Egusi Soup.</figcaption>
+                <figcaption class="offscreen">Pounded Yam with Egusi Soup.</figcaption>
             </figure>
             <figure>
             <img src="img/peppersoup.webp" alt="afro">
-                <figcaption>Spicy Pepper Soup with assorted meat.</figcaption>
+                <figcaption class="offscreen">Spicy Pepper Soup with assorted meat.</figcaption>
             </figure>
             <figure>
             <img src="img/poundedyam.webp" alt="afro">
-                <figcaption>Pounded Yam with Ogbono Soup.</figcaption>
+                <figcaption class="offscreen">Pounded Yam with Ogbono Soup.</figcaption>
             </figure>
             <figure>
                 <img src="img/afang.webp" alt="afang soup">
-                <figcaption>Afang Soup.</figcaption>
+                <figcaption class="offscreen">Afang Soup.</figcaption>
             </figure>
             <figure>
                 <img src="img/jollof.webp" alt="rice">
-                <figcaption>Jollof Rice and Chicken.</figcaption>
+                <figcaption class="offscreen">Jollof Rice and Chicken.</figcaption>
             </figure>
             </div>
-        </header>
+        </section>
         <main>
             <article id="about">
                 <h2>About <abbr title="The African Bowl">TAB</abbr></h2>
@@ -78,7 +79,6 @@
                     </details>
                 </aside>
             </article>
-            <hr>
             <article id="menu">
                 <h2>Our Menu</h2>
                 <table>
@@ -229,7 +229,6 @@
 
             </article>
         </main>
-        <hr>
         <footer>
             <p> Copyright &copy; 2025 The African Bowl. All rights reserved.</p>
         </footer>
